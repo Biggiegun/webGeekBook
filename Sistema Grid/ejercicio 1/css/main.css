@@ -1,0 +1,75 @@
+div{
+    background-color: rgb(211, 19, 125);
+}
+section{
+    height: 50vh;
+    width: 70vw;
+    border: black 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "P1 P2";
+    position: absolute;
+    top: 25%;
+    left:15%;
+    grid-gap: 1px;
+
+}
+#P1{
+   
+    grid-area: P1;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "one one"
+                         "three four"
+                         "three five";
+}
+#one{
+    
+    grid-area: one;
+}
+#three{
+    border: 1px solid white;
+    grid-area: three;
+}
+#four{
+    border: 1px solid white;
+    grid-area: four;
+}
+#five{
+    border: 1px solid white;
+    grid-area: five;
+}
+
+/*////////////////////////////////////////////////////////////////////////*/
+
+
+#P2{
+    grid-area: P2;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 66.7% 33.3%;
+    grid-template-areas: "two"
+                         "six";
+}
+
+#two{
+    grid-area: two;
+    
+}
+    
+#six{
+    grid-area: six;
+    border: 1px solid white;
+}
+
+
+
+
+div{
+    color: white;
+    text-align: center;
+}

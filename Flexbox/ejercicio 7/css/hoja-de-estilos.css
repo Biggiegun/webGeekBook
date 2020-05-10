@@ -1,0 +1,58 @@
+body{
+    width: 100%;
+    max-width: 840px;
+}
+img{
+    max-width: 10em;
+    max-height: 11em;
+}
+#caja{
+    background-color: grey;
+    border-radius: 0.5em;
+    color: grey;
+    padding: 0em;
+}
+#datos{
+    padding-right: 10.5em;
+    padding-left: 1em;
+    text-align: left;
+    margin: 0em;
+}
+#calificar{
+    display:inline-block;  
+    align-items: flex-end;
+display: inline-flex;
+align-items:baseline;
+    
+}
+#one{
+    display: flex;
+    justify-content: flex-start;
+    background-color: whitesmoke;
+}
+input{
+    border: 1px solid gray;
+    border-radius: 0.5em;
+    text-decoration: none;
+    box-shadow: auto;
+    height: 2em;
+    width: 12em;
+}
+
+#nota{
+    text-align: center;
+    border-radius: 15%;
+    padding-top: 0em;
+    height: 1.5em;
+    width: 1.5em;
+    background-color: grey;
+}
+#valoraciones{
+    margin: 0.5em;
+}
+#especialidad{
+    color: grey;
+}
+#reserva{
+    background-color: gray;
+}

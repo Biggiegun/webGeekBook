@@ -1,0 +1,3 @@
+Ninguna Licensia.
+
+El readme brinda información importante acerca del proyecto.

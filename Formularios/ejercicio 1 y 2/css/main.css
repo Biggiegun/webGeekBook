@@ -1,0 +1,22 @@
+body{
+    border: 2px solid goldenrod;
+    /*height: 60vh;*/
+    margin: 0em 15em;
+    border-radius: 2em;
+}
+h1{
+    text-align: center;
+    
+}
+form{
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    padding: 1.5% 20%;
+    border-top: 0em;
+    border-radius: 2em;
+}
+input{
+    border: 1px solid goldenrod;
+}

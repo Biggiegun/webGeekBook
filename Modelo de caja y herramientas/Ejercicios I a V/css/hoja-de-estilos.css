@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+    /*border: 1px solid dodgerblue;*/
+}
+
+
+/* Ejercicio 2*/
+div{
+    /*display: inline;*/
+    display: inline-block;
+    /*display:block;*/
+}
+#camera{
+    height: 200px;
+    width: 200px;
+}
+#universo{
+box-sizing: border-box;
+padding: 10px; 
+border: solid 5px; 
+}

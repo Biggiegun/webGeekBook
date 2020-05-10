@@ -1,0 +1,48 @@
+
+img{
+    width: 45%;
+    height: 25%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #c3c3c3;
+  }
+  div{
+      border:1px solid black;
+      width: 100vw;
+      height:50;
+  }
+  #sub4 {order: 2;
+    display: inline-block;
+    text-align: center;
+    padding: 0.5em;
+}
+#sub11  {order: 4;
+    display: inline-block;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#sub2 {order: 3;
+    display: inline-block;
+    text-align: center;
+    padding: 0.5em;
+}
+#sub3  {order: 1;
+    display: inline-block;
+    text-align: center;
+    padding: 0.5em;
+}
+#sub5 {order: 5;
+    display: inline-block;
+    text-align: center;
+    padding: 0.5em;
+}
+    #one{
+        display: flex;
+
+    }
+    #two{
+        display:flex;
+    }

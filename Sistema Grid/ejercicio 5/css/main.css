@@ -1,0 +1,31 @@
+
+.header{
+    text-align: center;
+    background-color: pink;
+    color: white;
+   
+}
+
+.menu{
+    text-align: center;
+    background-color: violet;
+    color: white;
+   
+}
+
+.content{
+    text-align: center;
+    background-color: salmon;
+    color: white;
+   
+}
+
+.footer{
+    text-align: center;
+    background-color: lightblue;
+    color: white;
+   
+}
+div{
+    border: 1px solid black;
+}

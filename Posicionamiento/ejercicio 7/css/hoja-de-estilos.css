@@ -1,0 +1,14 @@
+p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: large;
+    text-align: justify;
+    width: 100%;
+}
+body{
+    width: 86%;
+    border: 1px solid black;
+    margin-left: 7vw;
+    display: inline-block;
+    justify-content: center;
+    max-width: 600px;
+}

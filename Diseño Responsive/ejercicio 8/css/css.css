@@ -1,0 +1,126 @@
+@media all and (max-width:480px){
+*{
+    margin:0em;
+    padding: 0em;
+}
+    
+header{
+    background-color: grey;
+    color: black;
+}
+
+#enlaces{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    width: 100vw;
+}
+
+main{
+    background-color: yellow;
+    
+}
+
+p{
+    text-align: left;
+    
+}
+
+footer{
+    background-color: darkgrey;
+}
+}
+
+/*//////////////////////////////////////////////////////////////////*/
+@media all and (min-width:480px) and (max-width:1000px){
+    *{
+        margin:0em;
+    }
+   
+    #todo{
+        display: flex;
+        align-content: center;
+    }
+   
+    header{
+        background-color: darkgrey;
+        color: black;
+    }
+    
+    #enlaces{
+        display: inline-flex;
+        flex-direction: column;
+        background-color: greenyellow;
+        justify-content: flex-start;
+        height: 15vh;
+        margin-top: 1.5em;
+        padding-right: 1em;
+        padding-bottom: 0em;
+    }
+    
+    main{
+        margin: 1.5em;
+        background-color: yellow;
+    
+    }
+    
+    p{
+        text-align: left;
+    }
+   
+    footer{
+        background-color: gray;
+    }
+body{
+    background-color: darkgrey;
+
+}
+}
+
+/*//////////////////////////////////////////////////////////////////*/
+
+@media all and (min-width:1000px){
+    *{
+        margin:0em;
+    }
+   
+    #todo{
+        display: flex;
+        align-content: center;
+    }
+   
+    header{
+        background-color: darkgrey;
+        color: black;
+    }
+    
+    #enlaces{
+        display: inline-flex;
+        flex-direction: column;
+        background-color: greenyellow;
+        justify-content: flex-start;
+        height: 15vh;
+        margin-top: 1.5em;
+        padding-right: 1em;
+        padding-bottom: 0em;
+    }
+    
+    main{
+        margin: 1.5em;
+        background-color: yellow;
+    display: flex;
+    }
+    
+    p{
+        text-align: left;
+    }
+   
+    footer{
+        background-color: gray;
+        
+    }
+body{
+    background-color: darkgrey;
+
+}
+}

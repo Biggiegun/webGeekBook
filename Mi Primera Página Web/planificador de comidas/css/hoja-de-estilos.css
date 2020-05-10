@@ -1,0 +1,36 @@
+table, th, td{
+    border: 2px solid black;
+    color: deeppink;
+}
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0em 5em;
+    background-color: cornsilk;
+    animation-name: bg;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+h1{
+    color: deeppink;
+}
+h1:hover{
+    color: fuchsia;
+}
+
+@keyframes bg{
+    0%{
+        background-color: cornsilk;
+    }
+
+    50%{
+        background-color: ghostwhite;
+    }
+
+    100%{
+        background-color: cornsilk;
+    }
+
+
+}

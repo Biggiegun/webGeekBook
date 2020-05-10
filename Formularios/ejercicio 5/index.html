@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    
+    <form action="" method="post">
+
+      <section id="cuerpo">
+      <label for="name"> <b>Nombre</b> </label>
+      <div id="nombre">
+        <input type="text" id="Nombre" placeholder="Nombre" required />
+        <input type="text" id="Apellido" placeholder="Apellidos" required/>
+      </div>
+
+      <label for="email"><b>Nombre de Usuario</b></label>
+      <div id="subData">
+      <input
+        type="email"
+        id="email"
+        placeholder="@gmail.com"
+        required
+      />
+      <label for="password"><b>Contraseña</b></label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+      />
+   
+      <label for="password"><b>Confirma tu Contraseña</b></label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+      />
+    <br>
+   
+    <label for="cumpleanos"><b>Fecha de nacimiento</b></label>
+      
+    <div id="born">
+        <input type="number" id="dia" required/>
+        <select name="mes" id="mes">
+          <option value="Default" selected disabled><b>Mes</b></option>
+          <option value="Enero">Enero</option>
+          <option value="Febrero">Febrero</option>
+          <option value="Marzo">Marzo</option>
+          <option value="Abril">Abril</option>
+          <option value="Mayo">Mayo</option>
+          <option value="Junio">Junio</option>
+          <option value="Julio">Julio</option>
+          <option value="Agosto">Agosto</option>
+          <option value="Septiembre">Septiembre</option>
+          <option value="Octubre">Octubre</option>
+          <option value="Noviembre">Noviembre</option>
+          <option value="Diciembre">Diciembre</option>
+        </select>
+        <input type="number" id="ano" required/>
+      </div>
+
+      <div id="genero">
+        <label for="gender">Sexo</label>
+        <select name="gender" id="gender">
+          <option value="default" selected disabled>selecciona tu género</option>
+          <option value="Masculino">Masculino</option>
+          <option value="Femenino">Femenino</option>
+        </select>
+      </div>
+
+      <br>
+
+    <label for="tel">Teléfono Móvil:</label>
+    <input type="tel" id="tel" name="mensajeUsuario" required pattern="^(?:0|\(?\+34\)?\s?|0034\s?)[1-79](?:[\.\-\s]?\d\d){4}$"/>
+
+      
+        <label for="email"><b>Tu dirección de correo electrónico actual</b></label>
+        <div id="foot">
+        <input
+          type="email"
+          id="email"
+          required
+        />
+        
+        <label for="ubicacion"> <b>Ubicación</b> </label>
+      </div>
+      </section>
+        
+        <div id="container">
+        <select name="ubicacion" id="ubicacion">
+          <option value="Espana" selected>España</option>
+          <option value="Reino Unido">Reino Unido</option>
+          <option value="Francia">Francia</option>
+          <option value="Alemania">Alemania</option>
+          <option value="Estados Unidos">Estados Unidos</option>
+        </select>
+      </div>
+      <div id="envio">
+        <input type="submit" id="btnEnviar" value="Siguiente paso" />
+      </div>
+
+    </form>
+  </body>
+</html>

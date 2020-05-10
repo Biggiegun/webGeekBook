@@ -1,0 +1,43 @@
+nav{
+    background-color: black;
+    padding: 1em;
+}
+ul{
+    display:flex;
+    justify-content: space-around;
+}
+li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+main{
+    padding: 1em 3.5em;
+    color: gray;
+    text-align: left;
+    height: 75vh;
+}
+h1{
+    color: gray;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+body{
+    background-color: whitesmoke;
+    width: 100%;
+    max-width: 600px;
+}
+p{
+    color: gray;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}

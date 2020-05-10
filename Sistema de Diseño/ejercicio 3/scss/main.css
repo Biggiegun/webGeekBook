@@ -1,0 +1,15 @@
+.input:hover {
+  color: Green;
+}
+
+.input {
+  font-family: Fantasy;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+input:hover {
+  border: goldenrod 3px solid;
+  width: 15em;
+}
+/*# sourceMappingURL=main.css.map */

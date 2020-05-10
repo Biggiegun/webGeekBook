@@ -1,0 +1,53 @@
+/*
+.level1{
+    text-align: center;
+    background-color: green;
+    color: white;
+   
+}
+
+.level2{
+    text-align: center;
+    background-color: green;
+    color: white;
+   
+}
+
+.level3{
+    text-align: center;
+    background-color: green;
+    color: white;
+   
+}
+
+.level4{
+    text-align: center;
+    background-color: green;
+    color: white;
+   
+}
+
+.level5{
+    text-align: center;
+    background-color: green;
+    color: white;
+   
+}
+
+div{
+    border: 10px solid white;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#gato{
+    max-height: 100%;
+}*/
+.bg-primary{
+    height: 30vh;
+}
+.bg-secondary{
+    height: 20vh;
+}

@@ -1,0 +1,23 @@
+///////////////////////////////////////////////////////
+
+$fonts:-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+
+$color1:#172B4D;
+$colorBackground:rgb(7, 71, 166);
+$GTS:"Georgia", "times", serif;
+$topSize:14px;
+$topWeight:400px;
+///////////////////////////////////////////////////////
+
+.RoundItems{
+    $colorRounds:#0052CC;
+}
+
+body{
+   font-weight: $topWeight;
+   color: $color1;
+   font-size: $topSize;
+   background-color: $colorBackground;
+   font-family: $GTS;
+}

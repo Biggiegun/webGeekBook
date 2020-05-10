@@ -1,0 +1,20 @@
+ul{
+    display: flex;
+    padding: 0em 2em;
+    justify-content: space-between;
+}
+h1{
+    text-align:center;
+}
+p{
+    padding: 3.5em;
+    text-align: justify;
+}
+div{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 1px solid black;
+    background-color: wheat;
+    border-radius: 0.5em;
+}

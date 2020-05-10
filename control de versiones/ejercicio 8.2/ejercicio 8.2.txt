@@ -1,0 +1,4 @@
+el VCS indica el archivo donde se encuentra el conflicto y la disyuntiva a resolver.
+Si decancándonos por el contenido propio de la rama activa o por el contenido presente en la rama a fusionar.
+
+Una ve tomada la decisión, se guarda el archivo y se hace el commit.

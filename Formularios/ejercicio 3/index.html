@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>Create an account</h1>
+    <p id="sub1">It's free and always will be</p>
+    <form action="#" method="post">
+
+      <input id="hide" name="hide" type="hidden" data-browser-detect="browser">
+      <div id="nombre">
+        <input type="text" id="Nombre" placeholder="First name" required />
+        <input type="text" id="Apellido" placeholder="Surname" required/>
+      </div>
+
+      <div id="subData">
+      <input
+        type="text"
+        id="email/phone"
+        placeholder="email or phone number"
+        required
+      />
+      <input
+        type="text"
+        id="email/phone"
+        placeholder="Re-enter email or phone number"
+        required
+      />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="New password"
+        required
+      />
+    </div>
+    <label for="altura">Introduzca su altura en "cm"</label>
+    <input type="number"name="altura" id="altura" value="150" min="50" max="250">
+    <br>
+   
+    <label for="cumpleanos">Birthday</label>
+      <div id="born">
+        <input type="date" id="cumpleanos" required/>
+        <p id="term"> <a href="#">Why do i need to providde mi date birth?</a></p>
+      </div>
+
+      <div id="genero">
+        <label for="gender">Female</label>
+        <input type="radio" name="gender" id="gender" required/>
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="gender" required/>
+      </div>
+      <br>
+    <label for="msg">Mensaje:</label>
+    <textarea id="msg" name="mensajeUsuario"></textarea>
+
+      <div>
+        <p id="terms">
+          By clicking Create an account , you agree to our Terms and that you
+          have read our <a href="#">Data Policy</a>, including our
+          <a href="#">Cookie Use.</a>
+        </p>
+        <label for="accept">Acepto Términos y Condiciones</label>
+        <input type="checkbox">
+        <br>
+        <input type="submit" id="btnEnviar" value="Create an account" />
+      </div>
+    </form>
+  </body>
+</html>

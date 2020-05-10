@@ -1,0 +1,11 @@
+a{color:orange
+}
+
+/* Los módulos de idioma de la página Wikipedia.org, están compuestos por una clase general haciendo mención al tipo de contenido, y un identificador 
+propio del idioma; un enlace para su consulta en el idioma específico y el nombre del idioma entre la etiqueta "Strong" */
+
+/* Dentro de la clase de la etiqueta div: se encuentra una especificación "central-featured-lang lang1", "lang#" especifíca la posición del 
+idioma entre el conjunto de idiomas presentes y/o disponibles.*/
+
+/* Haciendo uso del inspector se observa que la caja de texto del buscador, con respecto al botón se encuentra a 19.5 unidades de separación 
+con respecto al botón de búsqueda.*/

@@ -1,0 +1,31 @@
+/* Popup container */
+#centro{
+    border:1px solid black;
+    height: 100vh;
+    width: 100vw;
+    background: url('https://image.flaticon.com/icons/svg/35/35777.svg');
+    background-color: wheat;
+    top:50%;
+    left: 50%;
+    text-align: center;
+}
+
+h1{
+    color: red;
+    position: absolute;
+    top:50%;
+    left:50%;
+    animation: moving 5s;
+    
+}
+
+
+@keyframes moving {
+
+    0%{top: -100%;
+    }
+    100%{top:50%;
+    
+    }
+    
+}

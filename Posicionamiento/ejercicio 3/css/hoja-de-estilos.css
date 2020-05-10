@@ -1,0 +1,22 @@
+body{
+    background-color: blueviolet;
+    color: whitesmoke;
+    padding: 3.5em;
+    text-align: justify;
+    font-size: xx-large;
+
+}
+section{
+    position: relative;
+    top:15vh;
+    z-index: 0;
+}
+header{
+    font-size: 2em;
+    text-align: center;
+    border:1px solid whitesmoke;
+    position: fixed;
+    z-index: 1;
+    width: 88%;
+    background-color: darkcyan;
+}

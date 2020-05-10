@@ -1,0 +1,42 @@
+body{
+    border-radius: 2em;
+    padding: 0.5em;
+    font-size: 18px;
+    font-family: Tahoma;
+    background-color: mediumpurple;
+    color:rebeccapurple;
+    line-height: 1.5em;
+}
+h1{
+    text-align: center;
+}
+#parrafos{
+    text-align: justify;
+    font-size: medium;
+    padding:0.5em;
+    margin:0.5em 0em 3em 0em;
+}
+
+#relatedInfo{
+    text-align: justify;
+    font-size: small;
+   
+}
+#relatedImg{
+    width: 95%;
+    height:50%;
+ 
+    border-radius: 1em;
+}
+aside{
+   margin: 0.5em 0.5em;
+    display: block;
+  }
+
+footer, a{
+    text-decoration: none;
+    font-style: italic;
+}
+#principal{
+display: flex;
+}

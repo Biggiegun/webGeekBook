@@ -1,0 +1,82 @@
+div{
+    background-color: rgb(211, 19, 125);
+}
+section{
+    height: 50vh;
+    width: 70vw;
+    border: black 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+   
+    
+    position: absolute;
+    top: 25%;
+    left:15%;
+    grid-gap: 1px;
+
+}
+#P1{
+    grid-row: span 1;
+    grid-column: span 1;
+
+    
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+#one{
+    grid-column: span 2;
+    
+}
+#three{
+    border: 1px solid white;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+#four{
+    border: 1px solid white;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+#five{
+    border: 1px solid white;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+/*////////////////////////////////////////////////////////////////////////*/
+
+
+#P2{
+
+    grid-row: span 1;
+    grid-column: span 1;
+
+   
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 66.7% 33.3%;
+  
+}
+
+#two{
+   grid-column: span 1;
+    
+}
+    
+#six{
+    grid-column: span 1;
+    border: 1px solid white;
+}
+
+
+
+
+div{
+    color: white;
+    text-align: center;
+}

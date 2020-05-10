@@ -1,0 +1,19 @@
+$fontSize:14px;
+$fontFamily:Fantasy;
+$fontWeight: 400;
+$color:Green;
+$miWidth:15em;
+$miBorde:goldenrod 3px solid;
+
+.input:hover{
+color:$color;
+}
+.input{
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+}
+input:hover{
+border: $miBorde;
+width:$miWidth;
+}
